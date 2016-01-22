@@ -1,0 +1,3 @@
+rootProject.name = 'jsonld-java-parent'
+include ':jsonld-java'
+project(':jsonld-java').projectDir = "$rootDir/core" as File
